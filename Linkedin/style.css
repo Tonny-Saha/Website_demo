@@ -1,0 +1,155 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Catamaran', sans-serif;
+   
+    font-family: 'Mukta', sans-serif;
+    
+}
+/* head .fav{
+    fill: #0A66C2;
+} */
+
+.link{
+    font-family: 'Catamaran', sans-serif;
+    font-size: 40px;
+    color: #0A66C2;
+    /* margin: 50px; */
+    position: absolute;
+    left: 100px;
+    top: 20px;
+}
+
+.nav ul li{
+    list-style: none;
+    /* display: inline-block; */
+    margin: 10px;
+    text-align: center;
+    color: rgb(121, 120, 120);
+    display: inline-block;
+    font-size: 17px;
+    
+}
+.nav ul li:hover{
+    color: rgb(53, 53, 53);
+    cursor:pointer;
+}
+
+.nav ul{
+ position: absolute;
+ right: 280px;   
+ display: inline;
+ bottom: 500px;
+}
+
+.nav ul li span{
+    position: absolute;
+    top: 20px;
+    width: 70px;
+    font-size:17px ;
+    /* text-decoration:d; */
+    border-left: 1px solid rgb(194, 189, 189);
+    height: 35px;
+    
+    
+}
+.nav ul li span:hover{
+    width: 80px;
+    height: 40px;
+    border-radius: 8px;
+    top: 20px;
+    background-color: rgb(240, 238, 245);
+    
+
+}
+.nav ul li input{
+    width: 100px;
+    height: 40px;
+    position: absolute;
+    left: 420px;
+    top: 10px;
+    border-radius: 50px;
+    text-align: center;
+    border:1px solid #0A66C2;
+    font-size:17px ;
+}
+ ::placeholder {
+    color: #0A66C2;
+}
+.nav ul li input:hover{
+    width: 100px;
+    height: 40px;
+    border-radius: 50px;
+    background-color: rgb(221, 232, 247);
+    cursor: pointer;
+    border: 2px solid #0A66C2;
+}
+
+.body .para{
+    position: absolute;
+    font-size: 60px;
+    width: 50%;
+    line-height: 65px;
+    position: absolute;
+    top: 80px;
+    color: #8F5849;
+    left: 100px;
+}
+.list ul{
+    position: absolute;
+    top: 300px;
+    left: 50px;
+    font-size: 20px;
+}
+.list ul .a{
+    height: 30px;
+    width: 500px;
+    border: 1px solid rgb(196, 196, 196);
+    /* position: relative; */
+    padding: 10px;
+    border-radius: 12px;
+    margin: 10px;
+}
+.list ul .b{
+    height: 30px;
+    width: 500px;
+    border: 1px solid rgb(196, 196, 196);
+    /* position: relative; */
+    padding: 10px;
+    border-radius: 12px;
+    margin: 10px;
+
+}
+
+.list ul .c{
+    height: 30px;
+    width: 500px;
+    border: 1px solid rgb(196, 196, 196);
+    /* position: relative; */
+    padding: 10px;
+    border-radius: 12px;
+    margin: 10px;
+
+}
+
+.list ul li span{
+    position:absolute;
+    right: 50px;
+    color: grey;
+}
+.list ul li{
+    list-style: none;
+}
+.list ul li:hover{
+    cursor: pointer;
+    box-shadow: 5px 5px 10px rgba(141, 141, 141, 0.8);
+}
+
+.pic img{
+    /* height:500px; */
+    width: 700px;
+    /* float: left; */
+    position: absolute;
+    left: 800px;
+    top: 130px;
+}
