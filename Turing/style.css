@@ -1,0 +1,145 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    /* color: rgb(112, 22, 22); */
+    background-color: rgb(255, 255, 255);
+
+}
+.logo{
+    position: absolute;
+    left: 50px;
+    top: 0px;
+}
+.logo img{
+    height: 40px;
+    width: 25px;
+    display: inline;
+    position: absolute;
+    left: 30px;
+    top: 30px;
+}
+
+.logo span{
+    position: absolute;
+    top: 33px;
+    font-size: 27px;
+    left: 63px;
+    font-family: 'Raleway', sans-serif;
+}
+.nav_bar ul{
+    position: absolute;
+    right: 70px;
+}
+.nav_bar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 15px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300px;
+    font-size: 17px;
+    color: #5C5E5C;
+
+}
+.nav_bar ul li:hover{
+
+ text-decoration: underline;
+ text-decoration-thickness: 2px;
+ text-decoration-color: #2961C4;
+ text-underline-offset: 15px;
+ cursor: pointer;
+
+}
+
+.nav_bar ul li:nth-child(2){
+    height: 25px;
+    width: 150px;
+    border-radius: 7px;
+    background-color: #487fdd;
+    color: white;
+    justify-content: center;
+    /* position: absolute; */
+    padding: 10px;
+    text-align: center;
+    /* margin: 0 auto; */
+    text-decoration: none;
+}
+
+.nav_bar ul li:nth-child(2):hover{
+    background-color: #2961C4;
+}
+
+.pic img{
+    height: 500px;
+    width: 700px;
+    position: absolute;
+    left: 600px;
+    top: 125px;
+}
+
+.text{
+    position: absolute;
+    width: 450px;
+    font-size: 23px;
+    font-family: 'Raleway', sans-serif;
+    top: 150px;
+    left: 70px;
+    color: #212121;
+    font-family: 'Montserrat', sans-serif;
+    display: inline;
+    line-height: 67px;
+}
+.para{
+    position: absolute;
+    width: 38%;
+    top: 390px;
+    left: 70px;
+    font-size: 20px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #353535;
+}
+
+.para span{
+    color: #2E6EDF;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.button {
+    position: absolute;
+    padding: 4px;
+    color: white;
+    background-color:#2961C4 ;
+    /* height: 50px; */
+    width: 200px;
+    left: 70px;
+    top: 510px;
+    text-align: center;
+    border-radius: 6px;
+    transition: width .5s;
+    /* display: block; */
+}
+.button:hover{
+    cursor: pointer;
+    width: 210px;
+}
+
+ .button i .fa{
+    position: absolute;
+    font-size: 30px;
+}
+
+.p{
+    position: absolute;
+    top: 580px;
+    left: 69px;
+    font-size: 12px;
+}
+
+.p span {
+    color: #2961C4;
+    font-family: 'Montserrat', sans-serif;
+    /* font-weight: 300px; */
+ 
+}
